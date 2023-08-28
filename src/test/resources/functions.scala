@@ -1,3 +1,5 @@
+  import java.util.UUID
+
 class Helper {
 
   def allCapitals(input: String): String = {
@@ -23,4 +25,8 @@ class Helper {
   def getNameParts(name: String): Array[String] = {
     name.split(" ")
   }
+
+  def generateUUID(): UUID = {
+      UUID.randomUUID()
+    }
 }
