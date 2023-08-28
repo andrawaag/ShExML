@@ -1,5 +1,7 @@
+import java.util.UUID
+
 class Helper {
-  import java.util.UUID
+
   def allCapitals(input: String): String = {
     input.toUpperCase
   }
