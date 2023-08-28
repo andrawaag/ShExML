@@ -1,3 +1,5 @@
+import java.util.UUID
+
 class Helper {
 
   def allCapitals(input: String): String = {
@@ -31,5 +33,9 @@ class Helper {
   def outsideUSA(country: String): Boolean = {
     country != "USA"
   }
+
+  def generateUUID(): UUID = {
+      UUID.randomUUID()
+    }
 
 }
